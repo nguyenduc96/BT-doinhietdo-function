@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi nhiệt độ</title>
+</head>
+<body>
+<form>
+    <p>
+        <label> Nhập nhiệt độ F:</label>
+        <input type="number" id="temperature" placeholder="Nhập nhiệt đô (F)"
+        oninput="temperatureChange(this.value)"
+        onchange="temperatureChange(this.value)">
+    </p>
+    <p>Nhiet do C: <span id="temperatureC"></span></p>
+</form>
+<script src="nhietdo.js"></script>
+</body>
+</html>
